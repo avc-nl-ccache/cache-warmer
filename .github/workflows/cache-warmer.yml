@@ -26,4 +26,3 @@ jobs:
         run: npm run start
         env:
           BRD_PROXY_NL: ${{ secrets.BRD_PROXY_NL }}
-          BRD_PROXY_FR: ${{ secrets.BRD_PROXY_FR }}

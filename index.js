@@ -7,17 +7,14 @@ dotenv.config();
 
 const DOMAINS_MAP = {
   nl: "https://www.addingvalue.nl",
-  fr: "https://www.addingvalue.fr",
 };
 
 const PROXIES = {
   nl: process.env.BRD_PROXY_NL,
-  fr: process.env.BRD_PROXY_FR,
 };
 
 const USER_AGENTS = {
   nl: "AddingValue-NL-CacheWarmer/1.0",
-  fr: "AddingValue-FR-CacheWarmer/1.0",
 };
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
